@@ -13,7 +13,7 @@
 
 if pti_1_1_1="CONFIG_PAGE_TABLE_ISOLATION=y" && pti_2_2="bugs           : cpu_insecure" && pti_3_1="[    0.000000] Kernel/User page tables isolation: enabled"
    then
- rm a.txt && rm pti_1_1.txt && rm b.txt && rm c.txt && rm d.txt && echo " Sistem Güvende "
+ rm a.txt && rm pti_1_1.txt && rm b.txt && rm c.txt && rm d.txt && echo " System secure "
 else
- rm a.txt && rm pti_1_1.txt && rm b.txt && rm c.txt && rm d.txt && echo " Sistem Güvende Değil "
+ rm a.txt && rm pti_1_1.txt && rm b.txt && rm c.txt && rm d.txt && echo " System unsecure "
 fi
